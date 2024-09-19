@@ -1,0 +1,27 @@
+#padre{
+    background-color: rgb(101, 101, 139);
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#hijoUno{
+    background-color: rgb(207, 102, 102);
+    height: 30%;
+    width: 300px;
+    order: 3;
+}
+#hijoDos{
+    background-color: rgb(102, 207, 127);
+    height: 30%;
+    width: 300px;
+    order: 1;
+}
+#hijoTres{
+    background-color: rgb(209, 149, 204);
+    height: 30%;
+    width: 300px;
+    order: 2;
+}

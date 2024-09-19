@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 700px;
+    background-color: rgb(97, 97, 97);
+}
+
+nav{
+    height: 100px;
+    background-color: black;
+
+    
+}
+
+ul{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    height: 100%
+}
+
+li{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    height: 2000px;
+    background-color: rgb(190, 190, 190);
+}
+.padre{
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(72, 72, 159);
+    height: 35% ;
+    width: 98%;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+.carta{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(182, 180, 180);
+    height: 95%;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+.img_carta{
+    width: 97%;
+    height: 70%;
+}
+h2{
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.parrafo_carta{
+    font-size:14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+}
+
+.boton_carta{
+    width: 50%;
+    height: 40px;
+    background-color: black;
+    color:white;
+    font-size:14px;
+    border-radius: 50px;
+}
